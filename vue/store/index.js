@@ -1,0 +1,18 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+import * as actions from './actions'
+import * as getters from './getters'
+
+import inputTable from './modules/inputTable'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+    actions,
+    getters,
+    modules: {
+        inputTable
+    },
+    strict: true,
+    plugins: []
+})
