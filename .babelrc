@@ -1,5 +1,6 @@
 {
   "presets": [
+      "node6",
     ["env", { "modules": false }]
   ]
 }
